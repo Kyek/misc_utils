@@ -3,6 +3,8 @@ import sys
 
 from setuptools import setup, find_packages
 
+version = '0.0.1'
+
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 5)
 
@@ -12,11 +14,15 @@ if CURRENT_PYTHON < REQUIRED_PYTHON:
 
 setup(
     name='python_utils',
-    version='0.0.1',
+    version=version,
+    long_description="""\
+Seriously, it is just a test; I will add some functions but will be only for my use. Be free to contribute""",
     python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
+    license='GPL-v3'
     url='https://github.com/Kyek/python_utils',
     author='Kyek',
+    include_package_data=True,
     author_email='paris_mendoza@protonmail.com',
     description=('Utils that I use :D'),
-    packages=find_packages()
+    packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
 )
