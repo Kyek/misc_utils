@@ -13,7 +13,7 @@ if CURRENT_PYTHON < REQUIRED_PYTHON:
 setup(
     name='python_utils',
     version='0.0.1',
-    python_requires='>={}.{}'.format(REQUIRED_PYTHON),
+    python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
     url='https://github.com/Kyek/python_utils',
     author='Kyek',
     author_email='paris_mendoza@protonmail.com',
