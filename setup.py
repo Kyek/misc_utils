@@ -18,7 +18,7 @@ setup(
     long_description="""\
 Seriously, it is just a test; I will add some functions but will be only for my use. Be free to contribute""",
     python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
-    license='GPL-v3',
+    license='MIT',
     url='https://github.com/Kyek/python_utils',
     author='Kyek',
     include_package_data=True,
