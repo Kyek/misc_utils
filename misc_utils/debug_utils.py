@@ -9,6 +9,6 @@ def debug_print(data_name, data_to_print=None):
             print('=' * len(data_name))
         else:
             print(data_name)
-            print('-' * len(data_name))
+            print('=' * len(data_name))
     except Exception as e:
         debug_print('Oops, I was not expecting this', e)

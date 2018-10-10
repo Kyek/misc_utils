@@ -13,13 +13,13 @@ if CURRENT_PYTHON < REQUIRED_PYTHON:
     sys.exit(1)
 
 setup(
-    name='python_utils',
+    name='misc_utils',
     version=version,
     long_description="""\
 Seriously, it is just a test; I will add some functions but will be only for my use. Be free to contribute""",
     python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
     license='MIT',
-    url='https://github.com/Kyek/python_utils',
+    url='https://github.com/Kyek/misc_utils',
     author='Kyek',
     include_package_data=True,
     author_email='paris_mendoza@protonmail.com',
