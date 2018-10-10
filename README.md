@@ -1,2 +1,2 @@
-# python_utils
-simple functions that I use
+# pisc_utils
+Simple functions I use in my python projects
