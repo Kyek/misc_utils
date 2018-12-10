@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = '0.0.2'
+version = '0.5.0'
 
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 5)
