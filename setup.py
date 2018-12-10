@@ -25,4 +25,7 @@ Seriously, it is just a test; I will add some functions but will be only for my 
     author_email='paris_mendoza@protonmail.com',
     description=('Utils that I use :D'),
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+    install_requires=[
+        'python-dotenv',
+    ],
 )
