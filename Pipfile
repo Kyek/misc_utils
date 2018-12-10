@@ -7,11 +7,11 @@ verify_ssl = true
 pylint = "*"
 coverage = "*"
 pytest-cov = "*"
+misc-utils = {editable = true,path = "."}
 
 [packages]
 environ = "*"
 python-dotenv = "*"
-misc-utils = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
