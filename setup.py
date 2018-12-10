@@ -3,7 +3,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = '0.5.0'
+version = '0.5.1'
 
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 5)
@@ -25,4 +25,7 @@ Seriously, it is just a test; I will add some functions but will be only for my 
     author_email='paris_mendoza@protonmail.com',
     description=('Utils that I use :D'),
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+    install_requires=[
+        'python-dotenv',
+    ],
 )
