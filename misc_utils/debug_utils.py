@@ -1,11 +1,13 @@
 import os
 
-def get_debug():
+def is_debug():
     debug = os.getenv('DEBUG') 
-    return bool(debug) if debug is not None else False
+    if debug is None or debug not in ["True", "False"]:
+        return False
+    return eval(debug)
 
 def debug_print(data_name, data_to_print=None):
-    if get_debug(): 
+    if is_debug(): 
         try:
             bar = '=' * 20
             data_name = bar + data_name + bar
